@@ -35,10 +35,13 @@
 ## Praktikum 4: Implementasi image section
 
 ### Langkah 1: Siapkan aset gambar
+![alt text](image-8.png)
 
 ### Langkah 2: Tambahkan gambar ke body
+![alt text](image-9.png)
 
 ### Langkah 3: Terakhir, ubah menjadi ListView
+![alt text](image-10.png)
 
 ## Tugas Praktikum 1
 1. Selesaikan Praktikum 1 sampai 4, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file README.md!

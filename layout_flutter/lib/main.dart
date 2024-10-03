@@ -71,8 +71,14 @@ class MyApp extends StatelessWidget {
           appBar: AppBar(
             title: const Text('Muhammad Bagus Indrawan'),
           ),
-          body: Column(
+          body: ListView(
             children: [
+              Image.asset(
+                'images/coban_rondo.jpg',
+                width: 600,
+                height: 240,
+                fit: BoxFit.cover,
+              ),
               titleSection,
               buttonSection,
               textSection,
