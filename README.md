@@ -1,16 +1,7 @@
-# hello_world
+# Learning Flutter from Jobsheet Codelab
 
-A new Flutter project.
+**Nama    : Muhammad Bagus Indrawan**
 
-## Getting Started
+**Kelas   : TI-3A/20**
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**NIM     : 2241720217**
