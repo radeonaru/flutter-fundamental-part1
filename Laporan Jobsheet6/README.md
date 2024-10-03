@@ -11,6 +11,7 @@
 ### Langkah 3: Identifikasi layout diagram
 
 ### Langkah 4: Implementasi title row
+![alt text](image-2.png)
 
 ## Praktikum 2: Implementasi button row
 
