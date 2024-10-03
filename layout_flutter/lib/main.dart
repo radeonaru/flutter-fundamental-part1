@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.only(bottom: 8.0),
                   child: const Text(
-                    'Wisata Gunung di Batu',
+                    'Air Terjun Coban Rondo Pujon',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
@@ -52,6 +52,19 @@ class MyApp extends StatelessWidget {
         _buildButtonColumn(color, Icons.share, 'SHARE'),
       ],
     );
+    Widget textSection = Container(
+      padding: const EdgeInsets.all(32),
+      child: const Text(
+        'Air Terjun Coban Rondo merupakan air terjun yang terletak di Kecamatan Pujon, '
+        'Kabupaten Malang, Jawa Timur. Air terjun ini mudah dijangkau oleh kendaraan umum. '
+        'Akses yang paling mudah dengan melalui jalan raya dari Malang ke Batu, '
+        'dari sebelah timur atau dari Kediri ke Pare menuju Malang dari arah barat.'
+        'Air terjun ini memiliki ketinggian sekitar 84 meter dan memiliki debit air yang cukup besar. '
+
+        'Muhammad Bagus Indrawan 2241720217',
+        softWrap: true,
+      ),
+    );
     return MaterialApp(
       title: 'Flutter layout: Muhammad Bagus Indrawan 2241720217',
       home: Scaffold(
@@ -62,6 +75,7 @@ class MyApp extends StatelessWidget {
             children: [
               titleSection,
               buttonSection,
+              textSection,
             ],
           )),
     );
