@@ -16,10 +16,13 @@
 ## Praktikum 2: Implementasi button row
 
 ### Langkah 1: Buat method Column _buildButtonColumn
+![alt text](image-3.png)
 
 ### Langkah 2: Buat widget buttonSection
+![alt text](image-4.png)
 
 ### Langkah 3: Tambah button section ke body
+![alt text](image-5.png)
 
 ## Praktikum 3: Implementasi text section
 
