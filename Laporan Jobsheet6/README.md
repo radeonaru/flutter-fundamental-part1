@@ -53,18 +53,28 @@
 ## Praktikum 5: Membangun Navigasi di Flutter
 
 ### Langkah 1: Siapkan project baru
+![alt text](image-11.png)
 
 ### Langkah 2: Mendefinisikan Route
+![alt text](image-12.png)
 
 ### Langkah 3: Lengkapi Kode di main.dart
+![alt text](image-13.png)
 
 ### Langkah 4: Membuat data model
+![alt text](image-14.png)
 
 ### Langkah 5: Lengkapi kode di class HomePage
+![alt text](image-15.png)
 
 ### Langkah 6: Membuat ListView dan itemBuilder
+![alt text](image-18.png)
 
 ### Langkah 7: Menambahkan aksi pada ListView
+![alt text](image-17.png)
+Hasil
+![alt text](image-16.png)
+![alt text](image-19.png)
 
 ## Tugas Praktikum 2
 1. Untuk melakukan pengiriman data ke halaman berikutnya, cukup menambahkan informasi arguments pada penggunaan Navigator. Perbarui kode pada bagian Navigator menjadi seperti berikut.
