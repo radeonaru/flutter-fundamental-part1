@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.only(bottom: 8.0),
                   child: const Text(
-                    'Wisata Gunung di Batu',
+                    'Air Terjun Coban Rondo Pujon',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
@@ -42,17 +42,69 @@ class MyApp extends StatelessWidget {
         ],
       ),
     );
+    Color color = Theme.of(context).primaryColor;
+
+    Widget buttonSection = Row(
+      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      children: [
+        _buildButtonColumn(color, Icons.call, 'CALL'),
+        _buildButtonColumn(color, Icons.near_me, 'ROUTE'),
+        _buildButtonColumn(color, Icons.share, 'SHARE'),
+      ],
+    );
+    Widget textSection = Container(
+      padding: const EdgeInsets.all(32),
+      child: const Text(
+        'Air Terjun Coban Rondo merupakan air terjun yang terletak di Kecamatan Pujon, '
+        'Kabupaten Malang, Jawa Timur. Air terjun ini mudah dijangkau oleh kendaraan umum. '
+        'Akses yang paling mudah dengan melalui jalan raya dari Malang ke Batu, '
+        'dari sebelah timur atau dari Kediri ke Pare menuju Malang dari arah barat.'
+        'Air terjun ini memiliki ketinggian sekitar 84 meter dan memiliki debit air yang cukup besar. '
+
+        'Muhammad Bagus Indrawan 2241720217',
+        softWrap: true,
+      ),
+    );
     return MaterialApp(
       title: 'Flutter layout: Muhammad Bagus Indrawan 2241720217',
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Muhammad Bagus Indrawan'),
+          appBar: AppBar(
+            title: const Text('Muhammad Bagus Indrawan'),
+          ),
+          body: ListView(
+            children: [
+              Image.asset(
+                'images/coban_rondo.jpg',
+                width: 600,
+                height: 240,
+                fit: BoxFit.cover,
+              ),
+              titleSection,
+              buttonSection,
+              textSection,
+            ],
+          )),
+    );
+  }
+
+  Column _buildButtonColumn(Color color, IconData icon, String label) {
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Icon(icon, color: color),
+        Container(
+          margin: const EdgeInsets.only(top: 8),
+          child: Text(
+            label,
+            style: TextStyle(
+              fontSize: 12,
+              fontWeight: FontWeight.w400,
+              color: color,
+            ),
+          ),
         ),
-        body: Column(
-          children: [
-            titleSection,
-          ],)
-        ),
+      ],
     );
   }
 }
