@@ -82,17 +82,36 @@ Hasil
     ``` 
     Navigator.pushNamed(context, '/item', arguments: item);
     ```
+![alt text](image-20.png)
 
 2. Pembacaan nilai yang dikirimkan pada halaman sebelumnya dapat dilakukan menggunakan ModalRoute. Tambahkan kode berikut pada blok fungsi build dalam halaman ItemPage. Setelah nilai didapatkan, anda dapat menggunakannya seperti penggunaan variabel pada umumnya. (https://docs.flutter.dev/cookbook/navigation/navigate-with-arguments)
 
     ```
     final itemArgs = ModalRoute.of(context)!.settings.arguments as Item;
     ```
+![alt text](image-21.png)
 
 3. Pada hasil akhir dari aplikasi belanja yang telah anda selesaikan, tambahkan atribut foto produk, stok, dan rating. Ubahlah tampilan menjadi GridView seperti di aplikasi marketplace pada umumnya.
 
+item.dart
+![alt text](image-22.png)
+
+home_page.dart
+![alt text](image-23.png)
+![alt text](image-24.png)
+![alt text](image-27.png)
+
+item_page.dart
+![alt text](image-25.png)
+![alt text](image-26.png)
+
 4. Silakan implementasikan Hero widget pada aplikasi belanja Anda dengan mempelajari dari sumber ini: https://docs.flutter.dev/cookbook/navigation/hero-animations
+![alt text](image-28.png)
+![alt text](image-29.png)
 
 5. Sesuaikan dan modifikasi tampilan sehingga menjadi aplikasi yang menarik. Selain itu, pecah widget menjadi kode yang lebih kecil. Tambahkan Nama dan NIM di footer aplikasi belanja Anda.
+![alt text](image-30.png)
+![alt text](image-31.png)
 
 6. Selesaikan Praktikum 5: Navigasi dan Rute tersebut. Cobalah modifikasi menggunakan plugin go_router, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file README.md. Kumpulkan link commit repository GitHub Anda kepada dosen yang telah disepakati!
+![alt text](image-32.png)
