@@ -28,14 +28,23 @@
 ## Praktikum 2: Membuat Photo Filter Carousel
 
 ### Langkah 1: Buat project baru
+![alt text](image-11.png)
 
 ### Langkah 2: Buat widget Selector ring dan dark gradient
+![alt text](image-12.png)
 
 ### Langkah 3: Buat widget photo filter carousel
+![alt text](image-13.png)
 
 ### Langkah 4: Membuat filter warna - bagian 1
+![alt text](image-14.png)
 
 ### Langkah 5: Membuat filter warna
+![alt text](image-15.png)
 
 ### Langkah 6: Implementasi filter carousel
+![alt text](image-16.png)
+
+### Hasil Run
+![alt text](image-17.png)
 
