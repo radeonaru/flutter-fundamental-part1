@@ -73,33 +73,53 @@
 ### Langkah 9: Tambah widget SafeArea
 ![alt text](image-21.png)
 
+### Hasil Run
+![alt text](jobsheet10_2.gif)
 
 ## Praktikum 3: Membuat State di Multiple Screens
 
 ### Langkah 1: Edit PlanProvider
+![alt text](image-22.png)
 
 ### Langkah 2: Edit main.dart
+![alt text](image-23.png)
 
 ### Langkah 3: Edit plan_screen.dart
+![alt text](image-24.png)
 
 ### Langkah 4: Error
+Itu akan terjadi error setiap kali memanggil PlanProvider.of(context). Itu terjadi karena screen saat ini hanya menerima tugas-tugas untuk satu kelompok Plan, tapi sekarang PlanProvider menjadi list dari objek plan tersebut.
 
 ### Langkah 5: Tambah getter Plan
+![alt text](image-25.png)
 
 ### Langkah 6: Method initState()
+![alt text](image-26.png)
 
 ### Langkah 7: Widget build
+![alt text](image-27.png)
 
 ### Langkah 8: Edit _buildTaskTile
+![alt text](image-28.png)
 
 ### Langkah 9: Buat screen baru
+![alt text](image-29.png)
+![alt text](image-30.png)
 
 ### Langkah 10: Pindah ke class _PlanCreatorScreenState
+![alt text](image-31.png)
 
 ### Langkah 11: Pindah ke method build
+![alt text](image-32.png)
 
 ### Langkah 12: Buat widget _buildListCreator
+![alt text](image-33.png)
 
 ### Langkah 13: Buat void addPlan()
+![alt text](image-34.png)
 
 ### Langkah 14: Buat widget _buildMasterPlans()
+![alt text](image-35.png)
+
+### Hasil Run
+![alt text](jobsheet10_3.gif)
